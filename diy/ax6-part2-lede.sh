@@ -38,7 +38,7 @@ sed -i 's/or "1"%>/or "1"%> ( <%=luci.sys.exec("expr `cat \/sys\/class\/thermal\
 #git clone https://github.com/garypang13/luci-app-bypass package/luci-app-bypass
 
 #OpenClash小猫咪
-#git clone https://github.com/vernesong/OpenClash.git package/OpenClash
+git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 
 #添加smartdns
 #git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
