@@ -73,7 +73,12 @@ jobs:
         chmod +x $DIY_P1_SH
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P1_SH
-
+        
+        echo '----------feeds1-----------'
+        cat feeds.conf.default
+        echo '----------feeds2-----------'
+        
+        
     - name: Update feeds
       run: cd openwrt && ./scripts/feeds update -a
 
